@@ -1,5 +1,4 @@
-https://yuka0055yuka-max.github.io/scraping/で公開されています
-
+https://yuka0055yuka-max.github.io/scraping/　←こちらで公開されてます
 学習用スクレイピング PWAツール
 日本語版
 プロジェクト概要
