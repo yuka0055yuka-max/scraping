@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="manifest" href="manifest.json" />
+  <title>学習用スクレイピング PWA</title>
+  <style>
+    body { font-family: sans-serif; padding:1rem; }
+    input, button, textarea { width:100%; margin:0.5rem 0; }
+  </style>
+</head>
+<body>
+  <h1>🔎 スクレイピング学習ツール</h1>
+  <input id="url" placeholder="URL を入力" />
+  <input id="keywords" placeholder="キーワードを , 区切り" />
+  <input id="password" type="password" placeholder="(禁止時のみ) パスワード" />
+  <button id="run">スクレイプ実行</button>
+  <pre id="output"></pre>
+
+  <script src="app.js"></script>
+</body>
+</html>
